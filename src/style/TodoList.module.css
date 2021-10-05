@@ -1,0 +1,50 @@
+.todoList {
+  width: 100%;
+  padding:20px 15px;
+  background-color: #fff;
+  position: relative;
+  overflow-x: hidden;
+}
+.todoList > h4 {
+  font-weight: 300;
+  color: gray;
+  padding-bottom: 8px;
+}
+.todoList > h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+
+.singleTodo {
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  align-items: center;
+ 
+  border-bottom: 1px solid rgba(0, 0, 0, 0.507);
+  padding: 10px;
+  padding-bottom: 8px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5px;
+}
+.text > p {
+  font-weight: 400;
+  font-size: 20px;
+}
+.text span {
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 3px;
+}
+.actions {
+  display: flex;
+}
+.actions span {
+  font-size: 20px;
+  margin: 0 7px;
+  cursor: pointer;
+}
