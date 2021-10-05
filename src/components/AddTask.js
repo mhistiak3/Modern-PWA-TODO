@@ -1,4 +1,4 @@
-import { useState, useContext } from "react";
+import {  useContext } from "react";
 import logo from "../logo.png";
 import classes from "../style/AddTask.module.css";
 import InputField from "./InputField";

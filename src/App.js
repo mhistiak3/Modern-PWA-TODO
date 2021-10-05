@@ -1,5 +1,7 @@
 import Layout from "./components/Layout";
-import './style/App.css';
+import swDev from "./ServiceWokerDev";
+import "./style/App.css";
+
 function App() {
   return (
     <>
@@ -9,3 +11,4 @@ function App() {
 }
 
 export default App;
+swDev();
