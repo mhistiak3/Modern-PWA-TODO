@@ -1,6 +1,6 @@
 {
   "short_name": "iA ToDO",
-  "name": "iA ToDo is a simple todo app. you can add your daily task through this app. your all task will save in yuor browser localstorage",
+  "name": "iA ToDo",
   "icons": [
     {
       "src": "favicon.ico",
