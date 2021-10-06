@@ -23,5 +23,7 @@
   right: 50px;
 }
 .completed{
-  background-color: rgb(176, 219, 210);
+     background-color: #00856a;
+    color: white;
+    border-radius: 5px;
 }

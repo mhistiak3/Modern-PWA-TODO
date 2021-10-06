@@ -22,7 +22,7 @@ const AddTask = () => {
   return (
     <div className={classes.addTaskBox} style={{ transform: style }}>
       <span className="fa fa-arrow-left" onClick={handleRemoveTaskBar}></span>
-      <h2>Add new task</h2>
+      <h2>{edit ? "Edit your task" : "Add new task"}</h2>
       <img src={logo} alt="" />
 
       <form
