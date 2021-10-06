@@ -5,13 +5,13 @@ this.addEventListener("install", (event) => {
     caches.open(cacheData).then((cache) => {
       cache.addAll([
         "https://ia-todo.netlify.app/static/js/2.3c51dae2.chunk.js",
-        "https://ia-todo.netlify.app/static/js/main.7f98cf7a.chunk.js",
-        "https://ia-todo.netlify.app/static/css/main.38512767.chunk.css",
+        "https://ia-todo.netlify.app/static/js/main.f3231e17.chunk.js",
+        "https://ia-todo.netlify.app/static/css/main.be24d390.chunk.css",
         "index.html",
         "/manifest.json",
         "/static/media/logo.29f81146.png",
         "https://ia-todo.netlify.app/",
-        
+        "https://ia-todo.netlify.app/static/media/bg.ed6cb335.jpg",
       ]);
     })
   );
