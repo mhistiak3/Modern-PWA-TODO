@@ -11,6 +11,7 @@ this.addEventListener("install", (event) => {
         "/manifest.json",
         "/static/media/logo.29f81146.png",
         "https://ia-todo.netlify.app/",
+        
       ]);
     })
   );
