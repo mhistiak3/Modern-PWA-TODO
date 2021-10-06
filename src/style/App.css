@@ -6,8 +6,8 @@
   font-family: "Lato", sans-serif;
 }
 
-.icon{
-  width: 50px ;
+.icon {
+  width: 50px;
   height: 50px;
   background-color: #f5f5f5;
   border-radius: 50%;
@@ -19,11 +19,14 @@
   align-items: center;
   cursor: pointer;
   position: absolute;
-  bottom: 30px;
-  right: 50px;
+  bottom: 40px;
+  right: 40px;
 }
-.completed{
-     background-color: #00856a;
-    color: white;
-    border-radius: 5px;
+.completed {
+  background-color: #00856a;
+  color: white;
+  border-radius: 5px;
+}
+.completed p {
+  text-decoration: line-through;
 }

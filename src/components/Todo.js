@@ -15,7 +15,9 @@ const Todo = ({ task }) => {
         <div className={classes.actions}>
           <span
             title={`${task.completed ? "Uncompleted" : "Completed"}`}
-            className={`fa ${task.completed ? "fa-close" : "fa-check"}`}
+            className={`fa ${
+              task.completed ? "fa fa-check-square-o" : "fa-square-o"
+            }`}
             onClick={() => completedTask(task.id)}
           ></span>
           <span
@@ -26,7 +28,7 @@ const Todo = ({ task }) => {
           <span
             className="fa fa-edit"
             title="Update"
-            onClick={() => EditTask(task.task, task.date,task.id)}
+            onClick={() => EditTask(task.task, task.date, task.id)}
           ></span>
         </div>
       </div>
