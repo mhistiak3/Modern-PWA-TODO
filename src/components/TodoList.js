@@ -10,7 +10,7 @@ const TodoList = () => {
   let { TodosList, length } = useContext(Context);
   return (
     <div className={classes.todoList}>
-      <h4>INBOX</h4>
+      <h1>INBOX</h1>
       <Scrollbars style={{ height: "420px" }}>
         {TodosList.length > 0 ? (
           TodosList.map((MyTodo) => <Todo task={MyTodo} key={MyTodo.id} />)

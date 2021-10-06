@@ -5,10 +5,11 @@
   position: relative;
   overflow-x: hidden;
 }
-.todoList > h4 {
+.todoList > h1 {
   font-weight: 300;
   color: gray;
   padding-bottom: 8px;
+  font-size: 18px;
 }
 .todoList > h3 {
   padding-top: 20px;

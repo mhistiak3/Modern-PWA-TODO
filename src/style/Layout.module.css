@@ -15,3 +15,8 @@
     position: relative;
     overflow: hidden;
 }
+@media (max-width:500px) {
+  .fullLayout {
+    padding: 0;
+  }
+}
