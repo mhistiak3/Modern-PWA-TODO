@@ -28,6 +28,9 @@ const ToDOContext = ({ children }) => {
   const handleAddTaskBar = () => {
     setTaskBar(true);
     setEdit(false);
+    setTask('')
+    setDate('')
+    setEditID('')
   };
   // To Remove Add task Bar
   const handleRemoveTaskBar = () => {
