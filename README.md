@@ -6,12 +6,12 @@ you can use this app for organized your all task.
 You can use this app on your mobile phone as a Android app and desktop application and this app work in offline.
 ## Authors
 
-- [@mhistiak3](https://i.ibb.co/4Wn2QgP/Screenshot-1.png)
+- [@mhistiak3](https://github.com/mhistiak3)
 
   
 ## Screenshots
 
-![App Screenshot](https://ibb.co/6Y78dJg)
+![App Screenshot](https://i.ibb.co/4Wn2QgP/Screenshot-1.png)
 
   
 ## Technology
