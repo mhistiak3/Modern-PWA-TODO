@@ -47,8 +47,3 @@ Start the server
 
   
 ![Logo](https://ia-todo.netlify.app/static/media/logo.29f81146.png)
-<<<<<<< HEAD
-=======
-
-    
->>>>>>> b08be9db350184aa73c0d13d8bb121ffe89aba36
