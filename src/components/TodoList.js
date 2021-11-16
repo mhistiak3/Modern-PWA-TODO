@@ -11,7 +11,7 @@ const TodoList = () => {
   return (
     <div className={classes.todoList}>
       <h1>INBOX</h1>
-      <Scrollbars style={{ height: "420px" }}>
+      <Scrollbars style={{ height: "350px" }}>
         {TodosList.length > 0 ? (
           TodosList.map((MyTodo) => <Todo task={MyTodo} key={MyTodo.id} />)
         ) : (
