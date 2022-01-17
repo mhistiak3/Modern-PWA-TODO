@@ -5,18 +5,29 @@
   position: relative;
   overflow-x: hidden;
 }
-.todoList > h1 {
-  font-weight: 300;
-  color: gray;
-  padding-bottom: 8px;
-  font-size: 18px;
-}
+
 .todoList > h3 {
   padding-top: 20px;
   padding-bottom: 10px;
   font-weight: 400;
 }
-
+.todoListHeader{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.todoListHeader >h1{
+ font-weight: 300;
+  color: gray;
+  padding-bottom: 8px;
+  font-size: 18px;
+}
+.todoListHeader select{
+  padding: 5px 10px;
+ background-color: white;
+  border: 2px solid black;
+  border-radius: 3px;
+}
 .singleTodo {
   display: grid;
   grid-template-columns: 6fr 1fr;
