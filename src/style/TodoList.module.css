@@ -1,6 +1,6 @@
 .todoList {
   width: 100%;
-  padding:20px 15px;
+  padding: 20px 15px;
   background-color: #fff;
   position: relative;
   overflow-x: hidden;
@@ -11,32 +11,31 @@
   padding-bottom: 10px;
   font-weight: 400;
 }
-.todoListHeader{
+.todoListHeader {
   display: flex;
   justify-content: space-between;
   margin-bottom: 5px;
 }
-.todoListHeader >h1{
- font-weight: 300;
+.todoListHeader > h1 {
+  font-weight: 300;
   color: gray;
   font-size: 18px;
   padding-bottom: 8px;
 }
-.todoListHeader select{
+.todoListHeader select {
   padding: 5px 10px;
- background-color: white;
+  background-color: white;
   border: 2px solid black;
   border-radius: 3px;
   font-weight: 300;
   color: black;
   font-size: 15px;
-
 }
 .singleTodo {
   display: grid;
   grid-template-columns: 6fr 1fr;
   align-items: center;
- 
+
   border-bottom: 1px solid rgba(0, 0, 0, 0.507);
   padding: 10px;
   padding-bottom: 8px;
@@ -52,9 +51,9 @@
   font-size: 20px;
 }
 .text span {
-    font-size: 13px;
-    font-weight: 300;
-    margin-top: 3px;
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 3px;
 }
 .actions {
   display: flex;
