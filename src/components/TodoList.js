@@ -21,7 +21,6 @@ const TodoList = () => {
       return todo;
     }
   });
-console.log(filterTodo);
   return (
     <div className={classes.todoList}>
       <div className={classes.todoListHeader}>
