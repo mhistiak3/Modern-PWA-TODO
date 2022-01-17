@@ -1,5 +1,6 @@
 let cacheData = "todo_v_1.0.0";
 // Event for caches files for runnig in offline
+
 this.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(cacheData).then((cache) => {
@@ -26,6 +27,7 @@ this.addEventListener("fetch", (event) => {
           return result;
         }
         let requestURL = event.request.clone();
+        
         return fetch(requestURL);
       })
     );
